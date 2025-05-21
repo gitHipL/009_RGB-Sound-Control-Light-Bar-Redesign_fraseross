@@ -1,0 +1,285 @@
+ERC-Bericht (2025-04-11T21:08:33+0200, UTF8-kodiert)
+
+***** Schaltplan /
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(9900 mils, 4450 mils): Symbol #PWR030 Versteckter Pin 1 [GND, Power input, Line]
+
+***** Schaltplan /µC + Switch & Microphone/
+[lib_symbol_mismatch]: Symbol "SW_MEC_5G" stimmt nicht mit Kopie in Bibliothek "Switch" überein
+    ; warning
+    @(5750 mils, 4500 mils): Symbol SW2 [SW_MEC_5G]
+[lib_symbol_mismatch]: Symbol "Conn_02x03_Odd_Even_MountingPin" stimmt nicht mit Kopie in Bibliothek "Connector_Generic_MountingPin" überein
+    ; warning
+    @(10100 mils, 5050 mils): Symbol J3 [Conn_02x03_Odd_Even_MountingPin]
+[multiple_net_names]: CTS und GND sind jeweils mit dem gleichen Teil verbunden. CTS wird in der Netzliste benutzt
+    ; warning
+    @(9300 mils, 5750 mils): Globaler Bezeichner "CTS"
+    @(9200 mils, 5850 mils): Symbol #PWR016 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(4500 mils, 2850 mils): Symbol U2 Pin 13 [PB1(PCINT1/OC1A), Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error
+    @(1600 mils, 5000 mils): Symbol MK1 Pin 2 [+, Passive, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error
+    @(1600 mils, 5400 mils): Symbol MK1 Pin 1 [-, Passive, Line]
+[no_connect_dangling]: Unverbundene "keine Verbindung"-Kennzeichnung
+    ; warning
+    @(-800 mils, 2950 mils): Keine Verbindung
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9100 mils, 1650 mils): Symbol U2 Pin 32 [PD2(INT0/PCINT18), Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol "SW_MEC_5G" stimmt nicht mit Kopie in Bibliothek "Switch" überein
+    ; warning
+    @(10250 mils, 2250 mils): Symbol SW1 [SW_MEC_5G]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(9250 mils, 1000 mils): Symbol #PWR011 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(9850 mils, 1000 mils): Symbol #PWR05 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9100 mils, 2350 mils): Symbol U2 Pin 25 [PC2(ADC2/PCINT10), Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9100 mils, 2250 mils): Symbol U2 Pin 26 [PC3(ADC3/PCINT11), Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9100 mils, 2650 mils): Symbol U2 Pin 22 [ADC7, Unspecified, Line]
+[footprint_link_issues]: Die aktuelle Konfiguration enthält nicht die Footprint-Bibliothek "".
+    ; warning
+    @(4500 mils, 1650 mils): Symbol U2 [ATMEGA328P-AU]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(4500 mils, 2650 mils): Symbol U2 Pin 11 [PD7(PCINT23/AIN1), Input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(4500 mils, 2750 mils): Symbol U2 Pin 12 [PB0(PCINT0/CLKO/ICP1), Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9100 mils, 2950 mils): Symbol U2 Pin 19 [ADC6, Unspecified, Line]
+[pin_to_pin]: Pins vom Typ Power output und Power output sind verbunden
+    ; error (excluded)
+    @(4500 mils, 1850 mils): Symbol U2 Pin 3 [GND, Power output, Line]
+    @(4500 mils, 2050 mils): Symbol U2 Pin 5 [GND, Power output, Line]
+[pin_to_pin]: Pins vom Typ Power output und Power output sind verbunden
+    ; error (excluded)
+    @(4500 mils, 2050 mils): Symbol U2 Pin 5 [GND, Power output, Line]
+    @(9100 mils, 2750 mils): Symbol U2 Pin 21 [GND, Power output, Line]
+[pin_not_driven]: Input-Pin wird von keinem Output-Pin angesteuert
+    ; error (excluded)
+    @(4500 mils, 2650 mils): Symbol U2 Pin 11 [PD7(PCINT23/AIN1), Input, Line]
+
+***** Schaltplan /USB C to Serial Converter/
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(9550 mils, 1750 mils): Symbol U1 Pin 3 [VCCIO, Power input, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(9100 mils, 4225 mils): Symbol J2 Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(9025 mils, 4225 mils): Horizontale Verbindung, Länge 75 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(9025 mils, 4275 mils): Symbol #PWR0114 Versteckter Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(9025 mils, 4275 mils): Vertikale Verbindung, Länge 50 mils
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(8150 mils, 2450 mils): Symbol U1 Pin 15 [CBUS0, Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(8150 mils, 2750 mils): Symbol U1 Pin 16 [CBUS3, Bidirectional, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5625 mils, 2400 mils): Symbol C11 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5300 mils, 3250 mils): Horizontale Verbindung, Länge 325 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5625 mils, 3250 mils): Vertikale Verbindung, Länge 550 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4500 mils, 2725 mils): Vertikale Verbindung, Länge 525 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4225 mils, 2725 mils): Vertikale Verbindung, Länge 525 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4225 mils, 2725 mils): Symbol R9 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4500 mils, 2425 mils): Symbol R11 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4500 mils, 1750 mils): Vertikale Verbindung, Länge 675 mils
+[no_connect_dangling]: Unverbundene "keine Verbindung"-Kennzeichnung
+    ; warning
+    @(4050 mils, -1350 mils): Keine Verbindung
+[no_connect_dangling]: Unverbundene "keine Verbindung"-Kennzeichnung
+    ; warning
+    @(3550 mils, -1150 mils): Keine Verbindung
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(3900 mils, 1550 mils): Symbol P2 Pin A4 [VBUS, Power input, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5625 mils, 2050 mils): Vertikale Verbindung, Länge 350 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5950 mils, 2050 mils): Horizontale Verbindung, Länge 325 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3900 mils, 2050 mils): Horizontale Verbindung, Länge 1725 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5550 mils, 1550 mils): Horizontale Verbindung, Länge 275 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6725 mils, 3125 mils): Horizontale Verbindung, Länge 75 mils
+[same_local_global_label]: Lokale und globale Bezeichner haben denselben Namen
+    ; warning
+    @(6725 mils, 3125 mils): Globaler Bezeichner "VUSB"
+    @(3975 mils, 1550 mils): Bezeichner "VUSB"
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6800 mils, 3125 mils): Vertikale Verbindung, Länge 100 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6800 mils, 4225 mils): Symbol #PWR0111 Versteckter Pin 1 [GND, Power input, Line]
+[same_local_global_label]: Lokale und globale Bezeichner haben denselben Namen
+    ; warning
+    @(6300 mils, 3725 mils): Globaler Bezeichner "D-"
+    @(4000 mils, 2050 mils): Bezeichner "D-"
+[same_local_global_label]: Lokale und globale Bezeichner haben denselben Namen
+    ; warning
+    @(7300 mils, 3725 mils): Globaler Bezeichner "D+"
+    @(4000 mils, 2250 mils): Bezeichner "D+"
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6300 mils, 3725 mils): Symbol D2 Pin 2 [I/O1, Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6125 mils, 1550 mils): Symbol JP2 Pin 2 [B, Passive, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(6450 mils, 1550 mils): Horizontale Verbindung, Länge 325 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5000 mils, 5150 mils): Vertikale Verbindung, Länge 175 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(5000 mils, 5325 mils): Horizontale Verbindung, Länge 50 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4050 mils, 5275 mils): Symbol #PWR0110 Versteckter Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4050 mils, 5150 mils): Vertikale Verbindung, Länge 125 mils
+[lib_symbol_mismatch]: Symbol "LED" stimmt nicht mit Kopie in Bibliothek "Device" überein
+    ; warning
+    @(4050 mils, 5000 mils): Symbol PWR2 [LED]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4500 mils, 5325 mils): Horizontale Verbindung, Länge 50 mils
+[lib_symbol_mismatch]: Symbol "LED" stimmt nicht mit Kopie in Bibliothek "Device" überein
+    ; warning
+    @(4500 mils, 5000 mils): Symbol TX2 [LED]
+[lib_symbol_mismatch]: Symbol "LED" stimmt nicht mit Kopie in Bibliothek "Device" überein
+    ; warning
+    @(5000 mils, 5000 mils): Symbol RX2 [LED]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4500 mils, 5150 mils): Vertikale Verbindung, Länge 175 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4000 mils, 3325 mils): Vertikale Verbindung, Länge 75 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4000 mils, 3325 mils): Symbol #PWR0103 Versteckter Pin 1 [GND, Power input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(3900 mils, 2550 mils): Symbol P2 Pin B8 [SBU2, Bidirectional, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(3900 mils, 2450 mils): Symbol P2 Pin A8 [SBU1, Bidirectional, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4225 mils, 1850 mils): Vertikale Verbindung, Länge 575 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3900 mils, 1850 mils): Horizontale Verbindung, Länge 325 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4225 mils, 3250 mils): Horizontale Verbindung, Länge 275 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(4000 mils, 3250 mils): Horizontale Verbindung, Länge 225 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(2850 mils, 4925 mils): Horizontale Verbindung, Länge 225 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3075 mils, 4925 mils): Horizontale Verbindung, Länge 275 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3075 mils, 4975 mils): Vertikale Verbindung, Länge 50 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3075 mils, 4975 mils): Symbol #PWR0105 Versteckter Pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(2850 mils, 4850 mils): Vertikale Verbindung, Länge 75 mils
+[endpoint_off_grid]: Symbolpin oder Verbindungsende liegt nicht auf Verbindungsraster
+    ; warning
+    @(3350 mils, 4925 mils): Vertikale Verbindung, Länge 75 mils
+
+***** Schaltplan /Power/
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(2850 mils, 3950 mils): Symbol U4 Pin 5 [VCC, Power input, Line]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(2850 mils, 4150 mils): Symbol U4 Pin 6 [GND, Power input, Line]
+[pin_to_pin]: Pins vom Typ Unspecified und Output sind verbunden
+    ; warning
+    @(4100 mils, 5050 mils): Symbol Q1 Pin 6 [6, Unspecified, Line]
+    @(3150 mils, 4350 mils): Symbol U4 Pin 1 [OD, Output, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(4100 mils, 5250 mils): Symbol Q1 Pin 5 [5, Unspecified, Line]
+[pin_to_pin]: Pins vom Typ Unspecified und Output sind verbunden
+    ; warning
+    @(4100 mils, 5450 mils): Symbol Q1 Pin 4 [4, Unspecified, Line]
+    @(3350 mils, 4350 mils): Symbol U4 Pin 3 [OC, Output, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(10600 mils, 2300 mils): Symbol #PWR035 Versteckter Pin 1 [GND, Power input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(9900 mils, 2300 mils): Symbol #PWR036 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    ; error (excluded)
+    @(3350 mils, 1300 mils): Symbol U3 Pin 4 [V_{CC}, Power input, Line]
+[pin_not_connected]: Pin nicht verbunden
+    ; error (excluded)
+    @(2500 mils, 5250 mils): Symbol Q1 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins vom Typ Unspecified und Passive sind verbunden
+    ; warning
+    @(2500 mils, 5450 mils): Symbol Q1 Pin 3 [3, Unspecified, Line]
+    @(4400 mils, 5000 mils): Symbol R18 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins vom Typ Unspecified und Passive sind verbunden
+    ; warning
+    @(2500 mils, 5050 mils): Symbol Q1 Pin 1 [1, Unspecified, Line]
+    @(1900 mils, 4400 mils): Symbol C14 Pin 1 [Passive, Line]
+[lib_symbol_mismatch]: Symbol "FS8205A" stimmt nicht mit Kopie in Bibliothek "FS8205A" überein
+    ; warning
+    @(2500 mils, 5050 mils): Symbol Q1 [FS8205A]
+
+ ** ERC-Meldungen: 88  Fehler 29  Warnungen 59
